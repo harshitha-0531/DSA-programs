@@ -14,6 +14,9 @@ class Solution {
                 even_fre=Math.min(even_fre,i);
             }
         }
+        if( even_fre==Integer.MAX_VALUE){
+            even_fre=0;
+        }
         return odd_fre-even_fre;
 
     }
