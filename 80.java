@@ -7,6 +7,7 @@ class Solution {
                 ptr++;
             }
         }
+        
         return ptr;
     }
 }
